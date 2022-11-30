@@ -1,0 +1,132 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="color-scheme" content="dark light">
+	<link rel="icon" href="icons/house.png" type="image/icon type">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/nav.css" type="text/css" />
+	<script src="scripts/nav.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,-25" />
+	<!--link rel="stylesheet" href="css/homebackground.css" type="text/css"-->
+	<title>HiOS | Welcome</title>
+</head><br>
+		   <body>
+			   <center>
+			   	<!--div class="translucentBox"-->
+			   	<!--WAS WORKING ON A PROPER WORKING DARK MODE!!!!!!!!!!!-->
+			   	<div id="navBox">
+			   		<div id="mySidenav" class="sidenav">
+			   			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			   			<a href="index.html" class="selected">Home</a>
+			   			<a href="restaurant.html">Restaurants</a>
+			   			<a href="offers.html">Offers</a>
+			   			<a href="hotel-activities.html">Hotels</a>
+			   			<a href="flights">Flights</a>
+			   			<a href="carhire.html">Car Hire</a>
+			   			<a href="taxi.html">Taxi</a>
+			   			<a href="thcplus.html">THCPlus</a>
+			   			<a href="devices.html">Devices</a>
+			   			<a href="help-more.html">Help & More</a>
+			   			<a href="appfeedback.html">Send Feedback</a>
+			   		</div>
+			   		&nbsp;&nbsp;&nbsp;<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; &nbsp; Home</span>
+			   	</div>
+			   	<br /><br />
+			   	<img src="pics/logos/logo_new.png" class="roundedImage" width="350"><br>
+			   	<p id="homeheading"></p>
+			   	<p id="homeheadingsmall">Welcome to THCMobile!</p><center>
+			   		<div class="translucentBox">
+			   			<h2 class="blue-h2">Your Info</h2>
+			   			<!--div class="roundedImage" id="ww_6b591a1444ddd" v='1.20' loc='id' a='{"t":"horizontal","lang":"en","ids":["wl8686"],"cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"celsius","sl_ics":"one","font":"Arial"}'>Weather for the Following Location: <a href="https://2ua.org/gbr/lancaster/map/" id="ww_6b591a1444ddd_u" target="_blank">Lancaster map, United Kingdom</a></div><script async src="https://srv1.weatherwidget.org/js/?id=ww_6b591a1444ddd"></script-->
+			   			<script>
+					  (function (d, s, id) {
+						  if (d.getElementById(id)) {
+							  if (window.__TOMORROW__) {
+								  window.__TOMORROW__.renderWidget();
+							  }
+							  return;
+						  }
+						  const fjs = d.getElementsByTagName(s)[0];
+						  const js = d.createElement(s);
+						  js.id = id;
+						  js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+
+						  fjs.parentNode.insertBefore(js, fjs);
+					  })(document, 'script', 'tomorrow-sdk');
+			   			</script>
+			   			<div class="roundedImage">
+			   				<div class="tomorrow"
+						   data-location-id="050236"
+						   data-language="EN"
+						   data-unit-system="METRIC"
+						   data-skin="light"
+						   data-widget-type="upcoming"
+						   style="padding-bottom:22px;position:relative;">
+			   					<a href="https://www.tomorrow.io/weather-api/"
+							 rel="nofollow noopener noreferrer"
+							 target="_blank"
+							 style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;">
+			   						<img alt="Powered by the Tomorrow.io Weather API"
+								   src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+								   width="250"
+								   height="18" />
+			   					</a>
+			   				</div>
+			   			</div>
+			   			<br>
+			   			<h3 class="blue-h3">Date</h3>
+			   			<p id="date" class="para"></p>
+			   		</div><br>
+			   		<div id="buttonNotPressed" style="display: block;">
+			   			<button class="navButton" onClick="showTutorialDiv()">App Tutorial</button>
+			   		</div>
+			   		<div id="buttonPressed" style="display: none;">
+			   			<button class="navButtonInactive" onClick="hideTutorialDiv()">App Tutorial</button>
+			   		</div>
+			   		<div id="tutorial" style="display: none;">
+			   			<br><img src="media/tutorial.gif" width="300" class="roundedImage">
+			   		</div>
+			   		<!--div class="translucentBox">
+			<h2 class="blue-h2">Visit Our Websites</h2>
+
+		</div-->
+			   		<br>
+			   		<center><p class="whitesmallpara">Copyright © The Highland Cafe(tm) Ltd. 2022. All Rights Reserved.</p></center><br>
+			   		<!Please note, to access staff portal after version 1.1.7, you have to exit fullscreen and go back to the HiOS(tm) Launcher and access the staffportal from there;>
+</body>
+	<script>
+		var myDate = new Date();
+			var hrs = myDate.getHours();
+
+			var greet;
+
+			if (hrs < 12)
+				greet = 'Good Morning';
+			else if (hrs >= 12 && hrs <= 17)
+				greet = 'Good Afternoon';
+			else if (hrs >= 17 && hrs <= 24)
+				greet = 'Good Evening';
+
+			document.getElementById('homeheading').innerHTML =
+				'<b>' + greet + '!</b>';
+			
+			n =  new Date();
+			y = n.getFullYear();
+			m = n.getMonth() + 1;
+			d = n.getDate();
+			document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
+
+			function showTutorialDiv () {
+				document.getElementById('buttonNotPressed').style.display = "none";  //empty the value
+				document.getElementById('buttonPressed').style.display = "block";
+				document.getElementById('tutorial').style.display = "block";
+				}
+
+			function hideTutorialDiv () {
+				document.getElementById('buttonNotPressed').style.display = "block";
+				document.getElementById('buttonPressed').style.display = "none";
+				document.getElementById('tutorial').style.display = "none";
+			}
+</script>
+</html>
