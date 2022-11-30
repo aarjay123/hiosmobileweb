@@ -9,7 +9,7 @@
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    border-radius: 25px;
+    border-top-right-radius: 25px;
     white-space: nowrap;
 }
 
@@ -17,7 +17,7 @@
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         font-size: 25px;
-        color: #818181;
+        color: #ADA9BB;
         display: block;
         transition: 0.3s;
         border-radius: 25px;
@@ -29,6 +29,7 @@
 
 .selected {
     background-color: #434658;
+    color: white;
 }
 
     .sidenav .closebtn {
