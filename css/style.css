@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
 
 html {
 	/*background-color: #FCFCFF;*/
@@ -12,7 +13,7 @@ html {
 .navButton {
 	height: 60px;
 	width: 200px;
-	font-family: 'Outfit', sans-serif;
+	font-family: 'Space Grotesk', sans-serif;
 	font-size: 20px;
 	background-color: #187bdc;
 	color: white;
@@ -23,7 +24,7 @@ html {
 .navButtonInactive {
 	height: 60px;
 	width: 200px;
-	font-family: 'Outfit', sans-serif;
+	font-family: 'Space Grotesk', sans-serif;
 	font-size: 20px;
 	background-color: #8791a5;
 	color: grey;
@@ -37,7 +38,7 @@ html {
 	background: #006ee6;
 	padding: 10px;
 	width: 300px;
-color: white;
+	color: white;
 }
 
 .offerBoxExpired {
@@ -45,7 +46,7 @@ color: white;
 	background: red;
 	padding: 10px;
 	width: 300px;
-color: white;
+	color: white;
 }
 
 .offerHeadings {
@@ -77,10 +78,10 @@ color: white;
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    background-color: #1b1b1b;
-    color: #FCFCFF;
-  }
+	html {
+		background-color: #1b1b1b;
+		color: #FCFCFF;
+	}
 }
 
 #infoText {
@@ -127,7 +128,7 @@ color: white;
 
 .wrapper {
 	display: grid;
- 	grid-template-columns: 400px 400px;
+	grid-template-columns: 400px 400px;
 	justify-content: center;
 }
 
@@ -140,37 +141,42 @@ color: white;
 /*THE PULSING HOMESCREEN*/
 
 @keyframes pulse {
-  0% {
-	/*color: #FF4F4B;*/
-	color: #FF0000;
-  } /* Red */
-  
-  25% {
-	/*color: #a0d2eb;*/
-	color: #22229a;
-  } /* Blue */
-  
-  50% {
-	/*color: #90EE90;*/
-	color: #228B22
-  } /* Green */
-  
-  75% {
-	/*color: #808080;*/
-	color: #dde0fe;
-  } /* White */
-  
-  100% {
-	/*color: #494d5f;*/
-	color: darkorange;
-  } /* Black */
+	0% {
+		/*color: #FF4F4B;*/
+		color: #FF0000;
+	}
+	/* Red */
+
+	25% {
+		/*color: #a0d2eb;*/
+		color: #22229a;
+	}
+	/* Blue */
+
+	50% {
+		/*color: #90EE90;*/
+		color: #228B22
+	}
+	/* Green */
+
+	75% {
+		/*color: #808080;*/
+		color: #dde0fe;
+	}
+	/* White */
+
+	100% {
+		/*color: #494d5f;*/
+		color: darkorange;
+	}
+	/* Black */
 }
 
 #nextButtonRoomkey {
 	/*float: right;*/
-	height:30px;
-	width:100px;
-	font-family: 'Outfit', sans-serif;
+	height: 30px;
+	width: 100px;
+	font-family: 'Space Grotesk', sans-serif;
 	font-size: 15px;
 	background-color: #26abff;
 	color: white;
@@ -178,16 +184,16 @@ color: white;
 	border: none;
 }
 
-#nextButtonRoomkey:hover {
-	background-color: #68c6ff; /* lightblue */
-	color: white;
-}
+	#nextButtonRoomkey:hover {
+		background-color: #68c6ff; /* lightblue */
+		color: white;
+	}
 
 #nextButtonRoomkey2 {
 	/*float: right;*/
-	height:30px;
-	width:100px;
-	font-family: 'Outfit', sans-serif;
+	height: 30px;
+	width: 100px;
+	font-family: 'Space Grotesk', sans-serif;
 	font-size: 15px;
 	background-color: #26abff;
 	color: white;
@@ -195,10 +201,10 @@ color: white;
 	border: none;
 }
 
-#nextButtonRoomkey2:hover {
-	background-color: #68c6ff; /* lightblue */
-	color: white;
-}
+	#nextButtonRoomkey2:hover {
+		background-color: #68c6ff; /* lightblue */
+		color: white;
+	}
 
 .inputBox {
 	border-radius: 16px;
@@ -274,28 +280,6 @@ color: white;
 	color: white;
 }
 
-.showExpiredOffersButton {
-	height:60px;
-    	width:200px;
-	font-family: 'Outfit', sans-serif;
-	font-size: 20px;
-	background-color: red;
-	color: white;
-	border-radius: 16px;
-	border: none;
-}
-	
-.hideExpiredOffersButton {
-	height:60px;
-	width:200px;
-	font-family: 'Outfit', sans-serif;
-	font-size: 20px;
-	background-color: #f46d75;
-	color: grey;
-	border-radius: 16px;
-	border: none;
-}
-
 #usernameBox {
 	border-radius: 16px;
 	background-color: white;
@@ -330,9 +314,9 @@ color: white;
 
 #loginButton {
 	/*float: right;*/
-	height:30px;
-	width:100px;
-	font-family: 'Outfit', sans-serif;
+	height: 30px;
+	width: 100px;
+	font-family: 'Space Grotesk', sans-serif;
 	font-size: 15px;
 	background-color: #0504b7;
 	color: white;
@@ -359,11 +343,32 @@ color: white;
 /*NEW HEADINGS FROM JULY 2022*/
 
 .blue-h2 {
-	color: #dde0fe
+	color: #dde0fe;
+	font-family: 'Space Grotesk', sans-serif;
 }
 
 .blue-h3 {
-	color: #dde0fe
+	color: #dde0fe;
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+/*NEW HEADINGS FROM DECEMBER 2022*/
+.gradientHeading {
+	background-image: linear-gradient(to right, #512bd4, #d600aa);
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 40px;
+}
+
+.gradientHeadingSmall {
+	background-image: linear-gradient(to right, #512bd4, #d600aa);
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 30px;
 }
 
 #navBox {
@@ -377,4 +382,5 @@ color: white;
 	text-align: left;
 	/*color: black;*/
 	background-color: #187bdc;
+	font-family: 'Space Grotesk', sans-serif;
 }
