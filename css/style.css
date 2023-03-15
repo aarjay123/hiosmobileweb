@@ -384,3 +384,9 @@ html {
 	background-color: #187bdc;
 	font-family: 'Space Grotesk', sans-serif;
 }
+
+.navIcon {
+	font-size: 25px !important;
+	padding-bottom: 5px;
+	vertical-align: middle !important;
+}
