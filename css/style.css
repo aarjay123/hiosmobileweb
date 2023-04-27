@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@700&display=swap');
 
 html {
 	/*background-color: #FCFCFF;*/
@@ -13,7 +13,7 @@ html {
 .navButton {
 	height: 60px;
 	width: 200px;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Cantarell', sans-serif;
 	font-size: 20px;
 	background-color: #187bdc;
 	color: white;
@@ -24,7 +24,7 @@ html {
 .navButtonInactive {
 	height: 60px;
 	width: 200px;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Cantarell', sans-serif;
 	font-size: 20px;
 	background-color: #8791a5;
 	color: grey;
@@ -176,7 +176,7 @@ html {
 	/*float: right;*/
 	height: 30px;
 	width: 100px;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Cantarell', sans-serif;
 	font-size: 15px;
 	background-color: #26abff;
 	color: white;
@@ -193,7 +193,7 @@ html {
 	/*float: right;*/
 	height: 30px;
 	width: 100px;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Cantarell', sans-serif;
 	font-size: 15px;
 	background-color: #26abff;
 	color: white;
@@ -316,7 +316,7 @@ html {
 	/*float: right;*/
 	height: 30px;
 	width: 100px;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Cantarell', sans-serif;
 	font-size: 15px;
 	background-color: #0504b7;
 	color: white;
@@ -344,12 +344,12 @@ html {
 
 .blue-h2 {
 	color: #dde0fe;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Cantarell', sans-serif;
 }
 
 .blue-h3 {
 	color: #dde0fe;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Cantarell', sans-serif;
 }
 
 /*NEW HEADINGS FROM DECEMBER 2022*/
@@ -358,7 +358,7 @@ html {
 	color: transparent;
 	-webkit-background-clip: text;
 	background-clip: text;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Cantarell', sans-serif;
 	font-size: 40px;
 }
 
@@ -367,7 +367,7 @@ html {
 	color: transparent;
 	-webkit-background-clip: text;
 	background-clip: text;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Cantarell', sans-serif;
 	font-size: 30px;
 }
 
@@ -382,7 +382,7 @@ html {
 	text-align: left;
 	/*color: black;*/
 	background-color: #187bdc;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Cantarell', sans-serif;
 }
 
 .navIcon {
